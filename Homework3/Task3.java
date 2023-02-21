@@ -23,4 +23,25 @@ public class Task3 {
         mergeArray(arrayA, arrayB, arrayC); // далее опять рекурсия возврата слияния двух отсортированных массивов
         return arrayA;
     }
+
+    public static int[] mergeArray(int[] array, int[] arrayB, int[] arrayC) {
+        int posA = 0;
+        int posB = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (posA == arrayB.length) {
+                array[i] = arrayC[posB];
+                posB++;
+            } else if (posB == arrayC.length) {
+                array[i] = arrayB[posA];
+                posA++;
+            } else if (arrayB[posA] < arrayC[posB]) {
+                array[i] = arrayB[posA];
+                posA++;
+            } else {
+                array[i] = arrayC[posB];
+                posB++;
+            }
+        }
+        return arrayC;
+    }
 }
