@@ -1,6 +1,12 @@
 package Homework3;
 
 public class Task3 {
+
+    public static void main(String[] args) {
+        int[] res = sortArray(new int[] { 8, 0, -3, 5, 6, 9, 8, -4, 2, -99, 43 });
+        System.out.println(java.util.Arrays.toString(res));
+    }
+
     public static int[] sortArray(int[] arrayA) { // сортировка массива который передается в функцию
         if (arrayA == null) { // проверяем, что массив не пустой
             return null;
