@@ -40,7 +40,7 @@ public class Task2 {
         return intArray;
     }
 
-     // ВЫчисление положительной степени
+     // Вычисление положительной степени
      public static String positivPow(int a, int b) {
         int temp = 1;
         String result = "";
