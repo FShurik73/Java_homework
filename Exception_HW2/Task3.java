@@ -20,7 +20,7 @@ public static void printSum(Integer a, Integer b) throws FileNotFoundException {
 }
  */
 
-package Exeption_HW2;
+package Exception_HW2;
 
 public class Task3 {
       public static void main(String[] args) throws Exception {

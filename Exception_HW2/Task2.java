@@ -8,7 +8,7 @@ try {
    System.out.println("Catching exception: " + e);
 }
 */
-package Exeption_HW2;
+package Exception_HW2;
 
 public class Task2 {
      public static void main(String[] args) {

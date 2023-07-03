@@ -1,4 +1,4 @@
-package Exeption_HW2;
+package Exception_HW2;
 
 import java.util.Scanner;
 
